@@ -14,3 +14,14 @@ Rails new appname
 example: rails generate migrate create_articles
   rails db:migrate,
   rails db:rollback
+# Drop Table from SQL
+
+just run into the console
+
+rails console
+and type in
+
+ActiveRecord::Migration.drop_table(:users)
+and then exit the console and
+
+rake db:migrate
