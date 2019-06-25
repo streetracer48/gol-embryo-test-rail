@@ -25,3 +25,5 @@ ActiveRecord::Migration.drop_table(:users)
 and then exit the console and
 
 rake db:migrate
+
+:
