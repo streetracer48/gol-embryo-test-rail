@@ -1,5 +1,15 @@
 # README
 
+RESET TABLE DATA 
+
+% rails c
+> Advisory.count
+# => 510 
+> Advisory.delete_all
+# => 510 
+> Advisory.count
+# => 0
+
 Rails new appname
 
 # Rails Console is important tools to Crud operation
