@@ -2,6 +2,8 @@
 
 RESET TABLE DATA 
 
+# Create controller rails g controller  controller name, example index, create show update
+
 % rails c
 > Advisory.count
 # => 510 
