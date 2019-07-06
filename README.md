@@ -1,5 +1,9 @@
 # README
 
+#TO SEE TABLE ALL COLMUN NAME
+Model.column_names
+e.g. User.column_names
+
 RESET TABLE DATA 
 
 # Create controller rails g controller  controller name, example index, create show update
