@@ -1,5 +1,8 @@
 # README
 
+# create method
+eg: Room.create(name:"name" user_id:"1")
+
 #TO SEE TABLE ALL COLMUN NAME
 Model.column_names
 e.g. User.column_names
