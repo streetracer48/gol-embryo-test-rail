@@ -8,6 +8,7 @@ RESET TABLE DATA
 
 # Create controller rails g controller  controller name, example index, create show update
 
+#For single table data delete just use delete
 % rails c
 > Advisory.count
 # => 510 
